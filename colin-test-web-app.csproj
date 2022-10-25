@@ -7,4 +7,12 @@
     <RootNamespace>colin_test_web_app</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="main_colin-test-web-app.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".github\workflow\main_colin-test-web-app.yml" />
+  </ItemGroup>
+
 </Project>

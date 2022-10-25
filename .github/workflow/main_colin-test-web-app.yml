@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: 'Production'
+      name: 'Staging'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'colin-test-web-app'
-          slot-name: 'Production'
+          slot-name: 'Staging'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7F75436194AA4E978B658A6D9AABC8F6 }}
           package: .
