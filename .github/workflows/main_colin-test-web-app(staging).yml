@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'colin-test-web-app'
           slot-name: 'staging'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57DCE0FD47A44F578EA2F2D7B6154C54 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F0BD38D859F48888DC47D5F68FE9276 }}
           package: .
