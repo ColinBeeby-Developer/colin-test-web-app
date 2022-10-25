@@ -5,8 +5,8 @@ name: Build and deploy ASP.Net Core app to Azure Web App - colin-test-web-app
 
 on:
   push:
-    branches:
-      - main
+    tags:
+    - '*'
   workflow_dispatch:
 
 jobs:

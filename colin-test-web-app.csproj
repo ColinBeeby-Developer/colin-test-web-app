@@ -8,11 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove=".github\workflow\**" />
+    <Content Remove=".github\workflow\**" />
+    <EmbeddedResource Remove=".github\workflow\**" />
+    <None Remove=".github\workflow\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="main_colin-test-web-app.yml" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".github\workflow\main_colin-test-web-app.yml" />
+    <None Include=".github\workflows\.vs\colin-test-web-app\FileContentIndex\2fcf44e1-7fc5-4d65-8f3c-fbb996a63801.vsidx" />
+    <None Include=".github\workflows\.vs\colin-test-web-app\FileContentIndex\71e2367d-8081-4f3c-8fcd-71843494121f.vsidx" />
+    <None Include=".github\workflows\.vs\colin-test-web-app\FileContentIndex\ae7cc873-9297-4437-8d63-d6b8f430f0b0.vsidx" />
+    <None Include=".github\workflows\.vs\colin-test-web-app\FileContentIndex\read.lock" />
+    <None Include=".github\workflows\.vs\ProjectEvaluation\colin-test-web-app.metadata.v5.1" />
+    <None Include=".github\workflows\.vs\ProjectEvaluation\colin-test-web-app.projects.v5.1" />
+    <None Include=".github\workflows\main_colin-test-web-app%28staging%29.yml" />
+    <None Include=".github\workflows\main_colin-test-web-app.yml" />
   </ItemGroup>
 
 </Project>
